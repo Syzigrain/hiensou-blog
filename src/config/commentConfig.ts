@@ -2,7 +2,7 @@ import type { CommentConfig } from "../types/commentConfig";
 
 export const commentConfig: CommentConfig = {
 	// 评论系统类型: none, twikoo, waline, giscus, disqus, artalk，默认为none，即不启用评论系统
-	type: "giscus",
+	type: "none", #giscus
 
 	//twikoo评论系统配置
 	twikoo: {
@@ -37,7 +37,7 @@ export const commentConfig: CommentConfig = {
 		//   'force'    —— 强制必须登录后才能评论，适合严格社区，关闭匿名评论。
 		//   'disable'  —— 禁止所有登录和 OAuth，仅允许匿名评论（填写昵称/邮箱），适用于极简留言。
 		login: "enable",
-		// 是否启用文章访问量统计功能
+		// 是否启用文章访问量统计功
 		visitorCount: true,
 	},
 

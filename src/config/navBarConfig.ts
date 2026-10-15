@@ -60,7 +60,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		children: [
 			{
 				name: "GitHub",
-				url: "https://github.com/Rouming-FEI",
+				url: "https://github.com/Syzigrain",
 				external: true,
 				icon: "fa7-brands:github",
 			},
@@ -72,16 +72,16 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 			// },
 			{
 				name: "bilibili",
-				url: "https://space.bilibili.com/454486848",
+				url: "https://space.bilibili.com/358519993",
 				external: true,
 				icon: "fa7-brands:bilibili",
 			},
-			{
-				name: "QQ",
-				url: "https://qm.qq.com/q/8m4Bx2lE7C",
-				external: true,
-				icon: "fa7-brands:qq",
-			},
+			// {
+			// 	name: "QQ",
+			// 	url: "https://qm.qq.com/q/8m4Bx2lE7C",
+			// 	external: true,
+			// 	icon: "fa7-brands:qq",
+			// },
 			// {
 			// 	name: "Hiensou文档",
 			// 	url: "https://docs-hiensou.example.com",

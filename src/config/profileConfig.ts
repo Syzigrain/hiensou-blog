@@ -9,7 +9,7 @@ export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.jpg",
 
 	// 名字
-	name: "废江流",
+	name: "朔尘",
 
 	// 个人签名
 	bio: "提灯寻影，灯到影灭。",
@@ -21,29 +21,29 @@ export const profileConfig: ProfileConfig = {
 	// `pnpm add @iconify-json/<icon-set-name>`
 	// showName: true 时显示图标和名称，false 时只显示图标
 	links: [
-		{
-			name: "qq",
-			icon: "fa7-brands:qq",
-			url: "https://qm.qq.com/q/8m4Bx2lE7C",
-			showName: false,
-		},
+		// {
+		// 	name: "qq",
+		// 	icon: "fa7-brands:qq",
+		// 	url: "https://qm.qq.com/q/8m4Bx2lE7C",
+		// 	showName: false,
+		// },
 		{
 			name: "GitHub",
 			icon: "fa7-brands:github",
-			url: "https://github.com/Rouming-FEI",
+			url: "https://github.com/Syzigrain",
 			showName: false,
 		},
 		{
 			name: "Email",
 			icon: "fa7-solid:envelope",
-			url: "mailto:roumingfei233@gmail.com",
+			url: "mailto:syzigrain@gmail.com",
 			showName: false,
 		},
-		{
-			name: "RSS",
-			icon: "fa7-solid:rss",
-			url: "/rss/",
-			showName: false,
-		},
+		// {
+		// 	name: "RSS",
+		// 	icon: "fa7-solid:rss",
+		// 	url: "/rss/",
+		// 	showName: false,
+		// },
 	],
 };

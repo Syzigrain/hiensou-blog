@@ -6,13 +6,13 @@ const SITE_LANG = "zh_CN";
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "Rouming",
+	title: "Syzigrain",
 
 	// 站点副标题
-	subtitle: "废江流の私域",
+	subtitle: "朔尘の私域",
 
 	// 站点 URL
-	site_url: "https://blog.rouming-fei.top",
+	site_url: "https://syzigrain.com",
 
 	// 站点描述
 	description: "",
