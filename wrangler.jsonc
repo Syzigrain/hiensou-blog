@@ -1,0 +1,20 @@
+{
+	// Cloudflare Workers 部署配置
+	// 本站是纯静态站点：astro build 输出到 dist/，再由 wrangler 作为静态资源上传。
+	// 注意：这里不设置 CF_WORKERS，因此不会启用 @astrojs/cloudflare 适配器（那是 SSR 才需要的）。
+	"$schema": "./node_modules/wrangler/config-schema.json",
+
+	// 必须与 Cloudflare 控制台里的 Worker 项目名一致
+	"name": "hiensou-blog",
+
+	"compatibility_date": "2026-10-15",
+
+	"assets": {
+		// astro build 的输出目录
+		"directory": "./dist",
+		// siteConfig.trailingSlash 为 "always"，auto-trailing-slash 与之匹配
+		"html_handling": "auto-trailing-slash",
+		// 未匹配到资源时返回 Astro 生成的 dist/404.html
+		"not_found_handling": "404-page"
+	}
+}
