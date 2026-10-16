@@ -41,6 +41,16 @@ export const friendsConfig: FriendLink[] = [
 	// 	weight: 10,
 	// 	enabled: true,
 	// },
+
+	{
+		title: "Rouming",
+		imgurl: "https://github.com/Rouming-FEI.png",
+		desc: "废江流の私域 · ACGN 与技术",
+		siteurl: "https://blog.rouming-fei.top",
+		tags: ["Blog", "ACGN"],
+		weight: 10,
+		enabled: true,
+	},
 ];
 
 // 获取启用的友链并进行排序

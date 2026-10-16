@@ -12,7 +12,7 @@ export const profileConfig: ProfileConfig = {
 	name: "朔尘",
 
 	// 个人签名
-	bio: "提灯寻影，灯到影灭。",
+	bio: "去赢，而不是相信奇迹发生。",
 
 	// 链接配置
 	// 已经预装的图标集：fa7-brands，fa7-regular，fa7-solid，material-symbols，simple-icons
