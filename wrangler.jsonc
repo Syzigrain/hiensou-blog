@@ -16,5 +16,13 @@
 		"html_handling": "auto-trailing-slash",
 		// 未匹配到资源时返回 Astro 生成的 dist/404.html
 		"not_found_handling": "404-page"
-	}
+	},
+
+	// 自定义域名：custom_domain: true 表示由 wrangler deploy 在部署时
+	// 自动创建 DNS 记录并签发证书，不需要在控制台里手动添加。
+	// 前提：syzigrain.com 这个 zone 必须和本 Worker 在同一个 Cloudflare 账号下。
+	"routes": [
+		{ "pattern": "syzigrain.com", "custom_domain": true },
+		{ "pattern": "www.syzigrain.com", "custom_domain": true }
+	]
 }
