@@ -6,6 +6,8 @@
 @import "./transition.css";
 @import "./custom-scrollbar.css";
 @import "./tags.css";
+@import "./noto-serif-sc.css";
+@import "./maple-mono.css";
 
 @plugin '@tailwindcss/typography';
 
@@ -14,9 +16,15 @@
 
 /* Tailwind v4 配置 - 从 tailwind.config.cjs 迁移 */
 @theme {
+  /* 正文 / 全站默认：思源宋体，后接各系统的中文衬线字体兜底 */
   --font-sans:
-    'Roboto', 'sans-serif', ui-sans-serif, system-ui, sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    'Noto Serif SC Variable', 'Source Han Serif SC', 'Source Han Serif CN',
+    'Songti SC', 'STSong', 'SimSun', serif, ui-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  /* 代码 / 等宽：Maple Mono，JetBrains Mono 作为兜底 */
+  --font-mono:
+    'Maple Mono', 'JetBrains Mono Variable', ui-monospace, SFMono-Regular,
+    Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
 }
 
 /* 自定义工具类 - Tailwind v4 使用 @utility 定义 */

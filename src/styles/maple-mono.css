@@ -1,0 +1,51 @@
+/**
+ * Maple Mono —— 代码 / 拉丁字母用等宽字体
+ *
+ * 来源：@fontsource/maple-mono@5.3.0 的 latin 子集
+ *       上游 https://github.com/subframe7536/maple-font
+ * 授权：SIL Open Font License 1.1
+ * 文件：public/fonts/maple-mono/files/*.woff2
+ *
+ * 只声明 latin 子集，中日韩字符不在此字体内，
+ * 因此中文会按 --font-sans 的顺序落到思源宋体（Noto Serif SC）。
+ */
+
+@font-face {
+	font-family: "Maple Mono";
+	font-style: normal;
+	font-display: swap;
+	font-weight: 400;
+	src: url(/fonts/maple-mono/files/maple-mono-latin-400-normal.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: "Maple Mono";
+	font-style: normal;
+	font-display: swap;
+	font-weight: 500;
+	src: url(/fonts/maple-mono/files/maple-mono-latin-500-normal.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: "Maple Mono";
+	font-style: normal;
+	font-display: swap;
+	font-weight: 600;
+	src: url(/fonts/maple-mono/files/maple-mono-latin-600-normal.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: "Maple Mono";
+	font-style: normal;
+	font-display: swap;
+	font-weight: 700;
+	src: url(/fonts/maple-mono/files/maple-mono-latin-700-normal.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: "Maple Mono";
+	font-style: italic;
+	font-display: swap;
+	font-weight: 400;
+	src: url(/fonts/maple-mono/files/maple-mono-latin-400-italic.woff2) format("woff2");
+}
