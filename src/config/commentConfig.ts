@@ -55,7 +55,7 @@ export const commentConfig: CommentConfig = {
 	//giscus评论系统配置
 	giscus: {
 		// 设置 Giscus 评论系统仓库
-		repo: "Rouming-FEI/Hiensou-Comments",
+		repo: "Syzigrain/Hiensou-Comments",
 		// 设置 Giscus 评论系统仓库ID
 		repoId: "R_kgDOTS3xfA",
 		// 设置 Giscus 评论系统分类

@@ -85,11 +85,11 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 是否允许用户通过控制面板切换横幅标题显示
 			switchable: true,
 			// 主页横幅主标题
-			title: "废江流の私域",
+			title: "朔尘の私域",
 			// 主页横幅主标题字体大小
 			titleSize: "3.8rem",
 			// 主页横幅副标题
-			subtitle: ["自觉的行动，哪怕无果，也比无意识的幸福更像真正的幸福"],
+			subtitle: ["我想留在大家身边，从过去，一直到明天。"],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",
 			typewriter: {

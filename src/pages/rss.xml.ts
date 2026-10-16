@@ -56,7 +56,7 @@ export async function GET(context: APIContext) {
 		site: (context.site ?? context.url).origin,
 		customData: `<templateTheme>Hiensou</templateTheme>
 		<templateThemeVersion>${pkg.version}</templateThemeVersion>
-		<templateThemeUrl>https://github.com/Rouming-FEI/Hiensou</templateThemeUrl>
+		<templateThemeUrl>https://github.com/Syzigrain/Hiensou</templateThemeUrl>
 		<lastBuildDate>${formatDateI18nWithTime(new Date())}</lastBuildDate>`,
 		items: feedItems,
 	});
