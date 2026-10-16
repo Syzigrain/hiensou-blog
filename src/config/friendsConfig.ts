@@ -22,133 +22,25 @@ export const friendsPageConfig: FriendsPageConfig = {
 
 // 友链配置
 export const friendsConfig: FriendLink[] = [
+	// 这里放你自己的友链。字段说明：
+	//   title    站点名称
+	//   imgurl   头像/站点图 URL
+	//   desc     一句话简介
+	//   siteurl  站点地址
+	//   tags     标签数组
+	//   weight   权重，数字越大排序越靠前
+	//   enabled  是否启用
+	//
+	// 示例（去掉注释即可生效）：
 	// {
-	// 	title: "夏夜流萤",
-	// 	imgurl:
-	// 		"https://weavatar.com/avatar/d252655d40d6874417a720bad0a6c5f77f8f6a1fd2f882f8f338402dc37e4190?s=640",
-	// 	desc: "飞萤之火自无梦的长夜亮起，绽放在终竟的明天。",
-	// 	siteurl: "https://blog.example.com",
+	// 	title: "某某的博客",
+	// 	imgurl: "https://example.com/avatar.jpg",
+	// 	desc: "一句话简介",
+	// 	siteurl: "https://example.com",
 	// 	tags: ["Blog"],
-	// 	weight: 10, // 权重，数字越大排序越靠前
-	// 	enabled: true, // 是否启用
-	// },
-	// {
-	// 	title: "Hiensou Docs",
-	// 	imgurl: "https://docs.example.com/logo.png",
-	// 	desc: "Hiensou主题模板文档",
-	// 	siteurl: "https://docs.example.com",
-	// 	tags: ["Docs"],
-	// 	weight: 9,
+	// 	weight: 10,
 	// 	enabled: true,
 	// },
-	// {
-	// 	title: "Astro",
-	// 	imgurl: "https://avatars.githubusercontent.com/u/44914786?v=4&s=640",
-	// 	desc: "The web framework for content-driven websites. ⭐️ Star to support our work!",
-	// 	siteurl: "https://github.com/withastro/astro",
-	// 	tags: ["Framework"],
-	// 	weight: 8,
-	// 	enabled: true,
-	// },
-
-	{
-	title: "SeanDictionary",
-	imgurl:
-		"",
-	desc: "",
-	siteurl: "https://seandictionary.top",
-	tags: ["Blog"],
-	weight: 10, 
-	enabled: true, 
-	},
-
-	{
-	title: "y11han",
-	imgurl:
-		"https://q.qlogo.cn/g?b=qq&nk=2172029629&s=640",
-	desc: "",
-	siteurl: "https://blog.y11han.icu",
-	tags: ["Blog"],
-	weight: 10, 
-	enabled: true, 
-	},
-
-	{
-	title: "cube",
-	imgurl:
-		"https://cube1345.github.io/img/lilisi1.jpg",
-	desc: "",
-	siteurl: "https://cube1345.github.io",
-	tags: ["Blog"],
-	weight: 10, 
-	enabled: true, 
-	},
-
-	{
-	title: "emmm",
-	imgurl:
-		"https://avatars.githubusercontent.com/u/86453687?v=4",
-	desc: "",
-	siteurl: "https://blog.zzemy.top",
-	tags: ["Blog"],
-	weight: 10, 
-	enabled: true, 
-	},
-
-	{
-	title: "s3loy",
-	imgurl:
-		"https://blog.s3loy.top/images/1.jpg",
-	desc: "",
-	siteurl: "https://blog.s3loy.top",
-	tags: ["Blog"],
-	weight: 10, 
-	enabled: true, 
-	},
-
-	{
-	title: "io-wy",
-	imgurl:
-		"https://io-wy.github.io//avatar.jpg",
-	desc: "",
-	siteurl: "https://io-wy.github.io",
-	tags: ["Blog"],
-	weight: 10, 
-	enabled: true, 
-	},
-
-	{
-	title: "Ptilopsis",
-	imgurl:
-		"https://blog.ptilopsis.cn/images/avatar.png",
-	desc: "",
-	siteurl: "https://blog.ptilopsis.cn",
-	tags: ["Blog"],
-	weight: 10, 
-	enabled: true, 
-	},
-
-	{
-	title: "PureStream",
-	imgurl:
-		"https://marblue.pink/img/purestream.jpg",
-	desc: "",
-	siteurl: "https://marblue.pink",
-	tags: ["Blog"],
-	weight: 10, 
-	enabled: true, 
-	},
-
-	{
-	title: "Symb0x76",
-	imgurl:
-		"https://blog.symb0x76.top/img/avatar.webp",
-	desc: "",
-	siteurl: "https://blog.symb0x76.top",
-	tags: ["Blog"],
-	weight: 10, 
-	enabled: true, 
-	},
 ];
 
 // 获取启用的友链并进行排序

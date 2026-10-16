@@ -8,7 +8,8 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	// 2. 导航栏：在本配置文件把showInNavbar设为false禁用即可
 
 	// 是否在导航栏显示音乐播放器入口
-	showInNavbar: true,
+	// 暂时关闭：原配置里的歌单是上游作者的，换成自己的歌单后再设为 true
+	showInNavbar: false,
 
 	// 使用方式："meting" 使用 Meting API，"local" 使用本地音乐列表
 	mode: "meting",
